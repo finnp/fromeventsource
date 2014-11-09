@@ -1,6 +1,6 @@
 {
   "name": "fromeventsource",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Wrap EventSource in ReadStream for Browserify",
   "main": "index.js",
   "scripts": {
