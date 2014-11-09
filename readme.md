@@ -1,5 +1,7 @@
 # fromeventsource
 
+DEPRECATED: Use `require('ssejson').fromEventSource` instead.
+
 Install with `npm install fromeventsource`
 
 Turns EventSource into and readable object stream. It expects each message to be
