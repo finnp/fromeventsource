@@ -1,7 +1,7 @@
 {
   "name": "fromeventsource",
   "version": "1.0.1",
-  "description": "Wrap EventSource in ReadStream for Browserify",
+  "description": "Wrap EventSource in readable ObjectStream for Browserify",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

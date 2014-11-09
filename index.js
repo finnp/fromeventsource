@@ -2,6 +2,9 @@ var PassThrough = require('stream').PassThrough
 
 module.exports = function (source) {
   
+  if(typeof source == 'string')
+    source = new EventSource(source)
+  
   var pass = new PassThrough({objectMode: true})
 
   source.onmessage = function (e) {

@@ -18,3 +18,12 @@ var fromEventSource = require('fromeventsource')
 fromEventSource(new EventSource('/sse'))
   .pipe(process)
 ```
+
+or just pass in a string:
+
+```js
+var fromEventSource = require('fromeventsource')
+
+fromEventSource('/sse')
+  .pipe(process)
+```
