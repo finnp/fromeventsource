@@ -2,7 +2,7 @@ var PassThrough = require('stream').PassThrough
 
 module.exports = function (source) {
   
-  var pass = new PassThrough()
+  var pass = new PassThrough({objectMode: true})
 
   source.onmessage = function (e) {
     var message = JSON.parse(e.data)

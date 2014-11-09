@@ -2,8 +2,13 @@
 
 Install with `npm install fromeventsource`
 
+Turns EventSource into and readable object stream. It expects each message to be
+valid JSON.
+
 It disables the reconnection of EventSource and only supports unnamed messages
 right now (`onmessage`). However PRs to enable this functionality are welcome.
+
+
 
 ## usage
 
